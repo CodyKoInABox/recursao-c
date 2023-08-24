@@ -1,2 +1,2 @@
-# recursao-c
+# MANFRED
 Exercicios de recursao em C
