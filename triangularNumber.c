@@ -2,8 +2,9 @@
 
 #include <stdio.h>
 
-// formula do numero triangular de ordem n (X)
-//
+// formula do numero triangular de ordem n (X):
+// n = ordem do numero (ex: terceiro numero da serie)
+// x = resultado (valor do terceiro numero da serie)
 // X = (n * (n + 1)) / 2
 
 int triangular(int currentPos, int lastPos){
@@ -16,8 +17,14 @@ int triangular(int currentPos, int lastPos){
 }
 
 int main(){
-
-    triangular(1, 100);
+    
+    int length;
+    
+    printf(" Calculadora de Numeros Triangulares \n\n");
+    printf("Quantos numeros voce deseja calcular? ");
+    scanf("%d", &length);
+    
+    triangular(1, length);
 
     return 0;
 }
