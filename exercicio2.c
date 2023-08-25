@@ -4,13 +4,10 @@
 
 
 int fibonacci(int pos){
-    if(pos == 0){
-        return 0;
-    }
-    else if(pos == 1){
-        return 1;
+    if(pos == 0 || pos == 1){
+        return pos;
     }else{
-        return (fibonacci(pos - 1) + fibonacci(pos - 2));
+        return (fibonacci(pos-1) + fibonacci(pos-2));
     }
 }
 
