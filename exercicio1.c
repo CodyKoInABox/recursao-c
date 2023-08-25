@@ -1,6 +1,7 @@
 // Construa um algoritmo que use recursividade para resolver o problema matematico da serie de Pitagoras, sabendo que a serie e 1, 3, 6, 10, 15, 21
 
 #include <stdio.h>
+#include <stdlib.h>
 
 // formula do numero triangular de ordem n (X):
 // n = ordem do numero (ex: terceiro numero da serie)
@@ -25,6 +26,9 @@ int main(){
     scanf("%d", &length);
     
     triangular(1, length);
+
+    printf("\n");
+    system("pause");
 
     return 0;
 }
