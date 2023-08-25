@@ -19,6 +19,7 @@ int triangular(int currentPos, int lastPos){
 
 int main(){
     
+    // length nao deve ser maior que 45.000 para evitar problemas de memoria
     int length;
     
     printf(" Calculadora de Numeros Triangulares \n\n");
